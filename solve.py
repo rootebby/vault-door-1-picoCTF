@@ -40,3 +40,4 @@ with open(filename,"r",encoding="UTF-8") as data:
 
 my_data = ''.join(i for i in arr)
 print("FLAG DECODED !!!! :\t",my_data)
+print("Ready to go  :   picoCTF{"+my_data+"}")
